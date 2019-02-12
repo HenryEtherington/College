@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Eoin's Electricals</title>
+    <meta charset='utf-8'>
+    <meta name="description" content="I am Eoin's Electricals. An electronics company that specialises in the sale and installation of tv, aerials and satilette systems. ">
+    <meta name="keywords" content="Eoin,Hours,Services,Prices,Reviews,Contact,Guarantee">
+    <meta name="author" content="Henry Etherington">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="images/Satellite.jpg"  type="image/jpg" sizes="20x20"> 
+   <link rel="stylesheet" type="text/css" href="index.css">
+ 
+ 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script>
+	
+	navigator.geolocation.getCurrentPosition(success);
+	function success(position){
+	var mylat = position.coords.latitude;
+	var mylong = position.coords.longitude;
+	
+	
+	//use the google maps api specified above to create the map out of our coords
+	//need to specify 3 things for our map, 
+	//our coords, a marker, define the map itself
+	
+	//Google-API-ready latitude and longitude string
+	var coords  = new google.maps.LatLng(mylat, mylong);
+	
+	// Options for google map to work
+	//how zoomed in it is, where the center is and then the type of map i.e. road or sat
+	var mapOptions  = {
+	
+	zoom:16,
+	center:coords,
+	mapTypeId: google.maps.MapTypeId.ROADMAP
+	
+	}
+	//creating the map 
+	//specify where do we put the map on the page and the map options
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	
+	//no marker yet on the map so we create a marker and specify the map we want to use and the coords of the marker
+	var marker = new google.maps.Marker({map:map, position:coords})
+
+	
+       }
+	</script>
+  <body>
+      
+       <div id ="map"></div>            
+    
+     <label for="show-menu" class="show-menu">&#9776;</label>
+      <input type="checkbox" id="show-menu" role="button">
+     
+            
+<ul id="menu">
+ 
+  <li>  <a href="services.htm"> <p> Services </p></a></li>
+  <li>  <a href="prices.htm"> <p> Prices </p></a></li>  
+  <li>  <a href="reviews.htm"> <p> Reviews </p></a></li>    
+  <li>  <a href="contact.htm"> <p> Contact </p></a></li>
+   
+</ul>
+      
+  <div id="search"> <input type="text" placeholder="Search..."> </div> 
+     
+    <div id="socialContainer">
+     <div class="container"> 
+     <!-- /*https://pixabay.com/en/facebook-blue-logo-2661207-->
+     <a href="https://www.facebook.com/eoins.osullivan.9"><img src="images/facebookLogo.png" alt="facebook-logo.jpg, 0B" title="Facebook link"> </a> 
+       </div>
+      <!--http://imgrid.net/tag/%D8%AA%D9%88%DB%8C%D8%AA%D8%B1%DB%8C/ -->
+       <div class="container1">
+        <a href="https://twitter.com/SullivanEoino"><img src="images/twitterLogo.png" alt="twitter-logo.png, 12kB" title="Twitter link"> </a>
+         </div>
+      <!-- https://www.ekologeek.com/page/164380-contactez-nous-mail-coordonnees-telephone-bordeaux-->
+       <div class="container2">
+        <a href="https://www.youtube.com/channel/UCL75n1evmhRA63sa-hA1lKA"><img src="images/youtubeLogo.png" alt="youtubeLogo.png, 2.6kB" title="Youtube link"> </a>       
+         </div>
+         <div class="headerDiv"> </div>
+          <div class="cHeaderDiv"> </div>
+           <div class="footerDiv"> </div>
+            </div>
+    
+   <!-- http://selectivetv.org/membership/ -->        
+    <a href="http://selectivetv.org/membership/">
+
+     <div id="advertPosition" title="Selective TV's 120$ for 50 channels"><div class="advert"> 
+       </div>  
+        </div> 
+          </a>    
+      
+      <!-- https://www.very-pc.co.uk/products/interactive/interactive-flat-panel-display?tab=2 -->
+      <a href="https://www.very-pc.co.uk/products/interactive/interactive-flat-panel-display?tab=2">  
+        <div id="advertPosition1" title="Propertires of flat panel display. Best front of class hardware. Multi-touch / multi-pen. Tough hard-glass dispaly. Up to 4k UHD. Up to 86 inch."><div class="advert"> 
+         </div>  
+          </div>
+            </a> 
+    
+       <!-- http://daventryaerials.com/#gmw-dialog-googlemapswidget-4 -->
+        <div id="imgPosition"><div class="background">
+         </div>   
+          <div class="imgText"> <a href="prices.htm"> <h2> Check out our exclusive prices. </h2></a> </div> 
+           </div>
+            
+      <aside>
+       <h2> Guarantee: </h2> <br> 
+        <p> We ensure that all faulty products under our guarantee will be replaced or repaired if: </p>
+          <br>
+          <p> 1) Contacted within a 90 day period. </p>
+          <p> 2) Any faults that occur are not due to misuse: </p> 
+          <p> .a) Interference with our products (tv's, satellites or aerials) , whether
+          it be accidental or deliberate.  </p> 
+          <p> 3) Weather did not play a part in the product's fault. </p>
+          <p> 4) Staff are treated with respect. </p>          
+            </aside>
+    
+
+  <div class="contact">  
+   <h2> Contact Us: </h2>  
+   <div id="contactContainer">
+   <ul>
+   <li> <a href="contact.htm"> <p> Telephone </p></a> 
+   <li> <a href="contact.htm"> <p> Email </p></a>
+   <li> <a href="contact.htm"> <p> Social Media </p></a>   
+   </ul>
+  </div>   
+    
+  <!-- https://www.iconfinder.com/icons/240727/call_circle_office_phone_telephone_icon-->
+  <a href="contact.htm"> <img src="images/telephone.jpg" alt="Telephone" class="telephone"> </a> 
+   <!-- https://sweet3apparel.com/collections/accessories -->
+   <a href="contact.htm"> <img src="images/email.png" alt="Email" class="emailLink"> </a>
+    <!-- https://graphicdesign.stackexchange.com/questions/62007/what-would-you-use-as-an-icon-to-represent-social-media -->
+    <a href="contact.htm"> <img src="images/socialMedia.jpg" alt="SocialMedia" class="socialMedia"> </a>
+  
+  </div>
+       
+   <article>
+   <div class="aboutUs">
+    <h3> About Us: </h3>
+     <p> I am Eoin O Sullivan. An Electrician with over thirty years experience,who specialises in the sale and installation of televisions, aerials and satellite systems.  </p>
+      </div>        
+       <div class="openingHours">
+        <h3> Opening Hours : </h3>
+         <p> Mon-Sat: 9am-5pm </p>
+          <p> Sun: 9am-4pm </p> 
+            <div class="tooltip"> <a href="http://tralee.ie/google-maps/"> <p> 123 Main Street, Tralee,Co.Kerry. </p> </a>
+             <div class="tooltiptext">Tralee Map
+              </div>
+               </div>
+                </div>  
+                 </article>
+                
+        
+    <div class="footer"> </div> 
+      <div class="copyright"> <h1> Eoi<span> n's </span> Electricals &#169; 2014 </h1> </div> 
+       <div class="email"> <a href="https://navigator-lxa.mail.com/home?sid=231f2dcab242c331eb65ff27f15d45e1b0bd72ca6f37def3c3bc4fc9ba3e52cda175daaa56fdad07bef23f9780dce2e9"><h1> EoinoSullivan@mail.com </h1></a></div>
+    
+    <div class="logo"> 
+      <a href="index.htm">  <h1> Eoi<span> n's </span> Electricals: </h1></a> 
+        </div>           
+ 
+ 
+  </body>
+</html>

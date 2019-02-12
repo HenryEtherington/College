@@ -1,0 +1,1540 @@
+/* CSS Document */    
+  body {
+ 
+  height:100%;
+  width:100%;
+  padding: 0;
+  margin: 0px;
+  background-color:#000000;
+    }  
+
+ .headerDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:190px;
+  left: -.833%;  
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:-1;
+ 
+  } 
+  
+   .cHeaderDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:500px;
+  left: -.8333%; 
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:-1;
+ 
+  } 
+    
+   .footerDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:1495px;
+  left: -.8333%; 
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:1;
+ 
+  } 
+    
+  #socialContainer {
+  
+  position:relative;
+  top:30px;
+
+  }
+  
+ .container {
+ 
+ position:absolute;
+ left:90.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:94.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:97.77%;
+  
+   }
+      
+    .footer {
+
+  padding: 0em 0.5em 10px;
+  position: absolute;
+  background-color:#B3E5FC;
+  top: 1815px;
+  left: -.8333%; 
+  width: 100%;
+  z-index:1;
+  }   
+   
+   #advertPosition {
+  
+  position:absolute;
+  top:230px;
+  background-image: url(images/AdvertisingTV.jpg);
+  width:100%; 
+  z-index:0;
+    
+  } 
+      
+  #advertPosition1 {
+  
+  position:absolute;
+  top:1525px;
+  background-image: url(images/AdvertisingTV2.jpg);
+  width:100%;
+  z-index:0; 
+ 
+  }  
+   .advert {
+ 
+  background-size: 1920px;
+  width:1899px;
+  height:300px;
+  
+}       
+    
+ img {
+
+  border: 1px solid #b5651d;
+  
+   }
+   
+  #imgPosition {
+
+  position:absolute;
+  left:10px;
+  top:585px;
+  
+   } 
+   
+   aside {
+   
+   position:absolute;
+   top:585px;
+   height:600px;
+   padding-left:2px;
+   border: 1px solid #b5651d;
+   color:#03A9F4;
+   width:540px;
+   left:1350px
+   
+   }
+   
+      .imgText h2:hover {
+  
+  transition: color .5s;  
+  color: #795548
+   } 
+   
+     .imgText h2 {
+     
+      color:#B3E5FC;
+    
+     }
+         
+   a {
+      
+   color:#03A9F4;
+   text-decoration:none;
+
+   }      .copyright {
+  
+  position:absolute;
+  top:1865px;  
+  left:.00260%;
+  
+  }
+
+ 
+ .email {
+  
+  position:absolute;
+  top:1865px;  
+  left:79%;
+  
+ }
+ 
+     
+    .tooltip {
+  
+    position: relative;
+    display: inline-block;
+    top:-25px;
+    
+}
+
+.tooltip .tooltiptext {
+
+    visibility: hidden;
+    text-decoration:underline;
+    text-decoration-color:#8BC34A;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    background-image:url(images/traleeMap.jpg);
+    opacity:0.9;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -115px;
+    left: 110%;
+    width:75%;
+    height:165px;
+}
+   #map {
+  
+  position:absolute; 
+  left:10px;
+  top:585px;
+  width:1080px;
+  height:600px;  
+  border:2px solid #b5651d; 
+  z-index:2; 
+  
+   }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    color:#654321;
+}
+ 
+ .aboutUs {
+ 
+ position:relative;
+ float:left;
+ border: 1px solid #b5651d;
+ width:540px;
+ height:200px; 
+
+ }
+ 
+ .openingHours {
+ 
+ position:relative;
+ float:right; 
+ border: 1px solid #b5651d;
+ width:540px;
+ height:200px;
+  
+ }
+ 
+  .contact {
+  
+ position:absolute;
+ top:1270px;
+ left:1350px; 
+ border: 1px solid #b5651d;
+ color:#03A9F4;
+ width:542px;
+ height:200px; 
+ text-decoration:underline;
+ text-decoration-color:#8BC34A ;
+ } 
+    aside h2 {
+  
+ text-decoration:underline;
+ text-decoration-color:#8BC34A ;  
+    
+    }   
+    
+#contactContainer {
+   
+ position:relative;
+ padding-right:5px;
+ left:-618.5px;
+  
+}
+  
+ .telephone {
+   
+    position:relative;
+    left:88px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+   }
+
+.emailLink {
+ 
+    position:relative;
+    left:187px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ 
+   }
+      .socialMedia {
+ 
+    position:relative;
+    left:275px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ 
+   }
+ 
+ p {
+ 
+ font-size: 1.3em;
+
+  }
+ 
+ h1 {
+ 
+ color:#0288D1;
+
+ }
+  h2 {
+  
+   text-align:center; 
+   
+   }
+
+ article {
+ 
+ left:10px;
+ position:absolute;
+ top:1270px;
+ color:#0288D1;
+  
+ } 
+
+
+ .background {
+ 
+  background-size: 1080px;
+  z-index:1;
+  background-image: url(images/Aerial.jpg);
+  border:2px solid #212121; 
+  width:1080px;
+  height:600px;
+
+}   
+.imgText {
+
+position:absolute;
+border: 1px solid #b5651d;
+background-color:#4CAF50;
+opacity:0.8;
+top:170px;
+left:920px;
+width:350px;
+padding:5px;
+z-index:3;
+
+}
+
+span {
+
+color:#8BC34A;
+
+}    
+  /* Responsive Design: https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css */
+ 
+ /*Style 'show menu' label button and hide it by default*/
+
+.show-menu {
+
+    text-decoration: none;
+    color:#388E3C;
+    opacity:0.8;
+    background: #795548;
+    text-align: center;
+    display: none;
+    height:60px;
+    z-index:1;
+    position:absolute;
+    top:87px;
+} 
+
+ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0;
+    position: absolute;
+        
+}
+
+/*Create a horizontal list with no spacing*/
+
+li {
+    display:inline-block;
+    float: left;
+    width:150px;
+}  
+   
+/*Style for menu links*/
+li a {
+   
+   
+    position:relative;
+    top:50px;
+    left:660px;
+    color:#0288D1;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;  
+    z-index:3;
+    text-decoration:underline;
+    text-decoration-color:#8BC34A;   
+    opacity:0.8;
+    }
+    
+      /* Search bar is display only */
+      
+      #search input[type=text] {
+      
+    position:absolute;
+    left:335px;
+    top:120px;
+    color:#0288D1;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background:black;
+    width:1250px;
+    border:1px solid #0288D1;
+
+}  
+      .logo{
+      
+    position:absolute;
+    float:left;
+    margin-left:5px;
+     
+    }
+
+
+
+::placeholder {
+
+color:#0288D1;
+font-size:1.3em;
+
+}
+
+/*Hover state for top level links*/
+ a:hover {
+     
+    color: #795548;
+    opacity:0.9;
+    text-decoration:none; 
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+} 
+
+  @media screen and (min-width: 1500px) and (max-width:1700px) {
+ 
+    ul li, li a {
+        width: 78.8%;
+    } 
+         .headerDiv {
+        
+        padding-right:6px;
+        
+        }
+        
+        .cHeaderDiv {
+        
+         padding-right:6px;
+        
+        }
+        
+        .footerDiv {
+        
+        padding-right:6px;
+        
+        }
+        
+        .footer {
+        
+      padding-right:6px;
+        
+        }
+        
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:0%;
+    top:147px;
+    width:99.88%;
+    
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+    
+        #imgPosition {
+
+  top:600px;
+  
+ }  
+ 
+ #contactContainer {
+
+ display:none;
+ 
+ } 
+ 
+        #map {
+  
+  top:600px;
+  width:650px;
+      
+   }
+   
+      .background {
+   
+  background-size: 650px;
+  background-image: url(images/AerialResized.jpg);
+  width:650px;
+         
+   }
+   
+   .aboutUs {
+   
+   
+   width:325px;
+   }
+   
+   .openingHours {
+    
+   width:325px;
+  
+   }
+   
+   aside {
+   
+   left:78.1%;
+   top:600px;
+   width:300px;
+   border:2px solid #b5651d;  
+   }
+   
+    .contact {
+  
+ left:78.1%; 
+ border: 2px solid #b5651d;
+ width:300px;
+
+ } 
+   
+h2 {
+
+text-align:left;
+
+}   
+  
+ .telephone {
+   
+    position:relative;
+    left:5%;
+
+  
+   }
+
+.emailLink {
+ 
+    position:relative;
+    left:20%;
+ 
+   }
+      .socialMedia {
+ 
+    position:relative;
+    left:35%;
+ 
+   }
+   
+   .imgText {
+   
+   left:0%;
+   top:0%;
+ 
+   }
+      
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+    
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+    
+    } 
+    
+      .email {
+   
+  left:76.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized.jpg); 
+     
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized.jpg); 
+  
+  }   .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }
+   
+    .tooltip .tooltiptext {
+
+
+    top: -130px;
+    left: 120%;
+    width:67.5%;
+    height:195px;
+  }  
+  
+  
+  
+  }
+  
+
+ /* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 1300px) and (max-width:1499px) { 
+
+           .background {
+   
+  background-size: 650px;
+  background-image: url(images/AerialResized.jpg);
+  width:650px;
+         
+   }
+   
+    ul li, li a {
+        width: 78.8%;
+    } 
+         .headerDiv {
+        
+        padding-right:4px;
+        
+        }
+        
+        .cHeaderDiv {
+        
+         padding-right:4px;
+        
+        }
+        
+        .footerDiv {
+        
+        padding-right:4px;
+        
+        }
+        
+        .footer {
+        
+      padding-right:4px;
+        
+        }
+        
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:0%;
+    top:147px;
+    width:99.88%;
+    
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+    
+        #imgPosition {
+
+  top:600px;
+  
+ }  
+ 
+ 
+     
+#contactContainer {
+   
+display:none;
+  
+} 
+  
+ 
+        #map {
+  
+  top:600px;
+  width:650px;
+      
+   }
+
+   
+   .aboutUs {
+   
+   
+   width:325px;
+   }
+   
+   .openingHours {
+    
+   width:325px;
+  
+   }
+   
+   aside {
+   
+   left:71.5%;
+   top:600px;
+   width:300px;
+   border:2px solid #b5651d;  
+   }
+   
+    .contact {
+  
+ left:71.5%;; 
+ border: 2px solid #b5651d;
+ width:300px;
+
+ } 
+   
+h2 {
+
+text-align:left;
+
+}   
+  
+ .telephone {
+   
+    position:relative;
+    left:5%;
+
+  
+   }
+
+.emailLink {
+ 
+    position:relative;
+    left:20%;
+ 
+   }
+      .socialMedia {
+ 
+    position:relative;
+    left:35%;
+ 
+   }
+   
+   .imgText {
+   
+   left:0%;
+   top:0%;
+ 
+   }
+      
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+    
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+    
+    } 
+    
+      .email {
+   
+  left:71.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized2.jpg); 
+
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized2.jpg); 
+  
+  }   .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }
+   
+    
+    .tooltip .tooltiptext {
+
+
+    top: -130px;
+    left: 127%;
+    width:67.5%;
+    height:195px;
+  }  
+  
+  
+  }
+      @media screen and (min-width: 992px) and (max-width:1299px) { 
+
+   
+           .background {
+   
+  background-size: 650px;
+  background-image: url(images/AerialResized.jpg);
+  width:650px;
+         
+   }
+   
+    ul li, li a {
+        width: 78.8%;
+    } 
+         .headerDiv {
+        
+        padding-right:2px;
+        
+        }
+        
+        .cHeaderDiv {
+        
+         padding-right:2px;
+        
+        }
+        
+        .footerDiv {
+        
+        padding-right:2px;
+        
+        }
+        
+        .footer {
+        
+      padding-right:2px;
+        
+        }
+        
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:0%;
+    top:147px;
+
+    
+    width:99.88%;
+    
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+    
+        #imgPosition {
+
+  top:600px;
+  
+ }  
+ 
+ #contactContainer {
+ 
+ display:none;
+ 
+ } 
+ 
+        #map {
+  
+  top:600px;
+  width:650px;
+      
+   }
+   
+ 
+   .aboutUs {
+   
+   
+   width:325px;
+   }
+   
+   .openingHours {
+    
+   width:325px;
+  
+   }
+   
+   aside {
+   
+   left:68.1%;
+   top:600px;
+   width:300px;
+   border:2px solid #b5651d;  
+   }
+   
+    .contact {
+  
+ left:68.1%; 
+ border: 2px solid #b5651d;
+ width:300px;
+
+ } 
+   
+h2 {
+
+text-align:left;
+
+}   
+  
+ .telephone {
+   
+    position:relative;
+    left:5%;
+
+  
+   }
+
+.emailLink {
+ 
+    position:relative;
+    left:20%;
+ 
+   }
+      .socialMedia {
+ 
+    position:relative;
+    left:35%;
+ 
+   }
+   
+   .imgText {
+   
+   left:0%;
+   top:0%;
+ 
+   }
+      
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+    
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+    
+    } 
+    
+      .email {
+   
+  left:63.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized3.jpg); 
+
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized3.jpg); 
+  
+  }   .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }
+   
+    .tooltip .tooltiptext {
+
+
+    display:none;
+  }  
+  
+  }
+ /* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:991px) { 
+
+    .imgText {
+   
+   left:0%;
+   top:0%;
+ 
+   }            .headerDiv {
+        
+        padding-right:0px;
+        
+        }
+        
+        .cHeaderDiv {
+        
+         padding-right:0px;
+        
+        }
+        
+        .footerDiv {
+        
+        padding-right:0px;
+        
+        } 
+        
+        .footer {
+        
+      padding-right:0px;
+        
+        }
+          article {
+          
+        top:1230px;  
+          
+          }
+   
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:35%;
+  height:42px;
+  border:1px solid blue;
+  top:110px;
+   
+   }
+      #search input[type=text] {
+    
+    left:35%;
+    top:110px;
+    color:#0288D1;
+    width:61.52%;
+    height:40px;
+    background: #795548;   
+} 
+    ul {
+        position: static;
+        display: none;
+     
+    }  
+
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:123.4px;
+    left:0%;
+    height:77.95px;
+    width:44.42%;
+    display:block;
+    background: #795548;
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#1976D2;
+    } 
+      .email {
+   
+  left:53.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized4.jpg); 
+   top:250px;
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized4.jpg); 
+   top:1545px;
+   background-size:50%;
+   height:270px;
+  } 
+       
+  #socialContainer {
+  
+  position:relative;
+  top:50px;
+
+  }
+   .container {
+ 
+ position:absolute;
+ left:82.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:88.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:93.77%;
+  
+   } 
+         .logo{
+      
+    top:25px;
+     
+    } 
+    
+       .background {
+   
+      background-size:450px;
+      width:450px;
+      background-image: url(images/AerialResized2.jpg); 
+   }
+   
+   .aboutUs {
+   
+   
+   width:225px;
+   height:250px;
+   }
+   
+   .openingHours {
+    
+   width:225px;
+   height:250px;
+  
+   }     aside {
+   
+   left:61.5%;
+   top:585px;
+   width:33.8023%;
+   border:2px solid #b5651d;  
+   }
+   
+    .contact {
+  
+ left:61.5%; 
+ border: 2px solid #b5651d;
+ top:1230px;           
+ height:250px;
+ width:33.8023%;
+
+ } 
+           #map {
+  
+  top:585px;
+  width:450px;
+      
+   }
+   
+         .imgText {
+   
+   left:0%;
+   top:0%;
+   width:35%;
+   }
+    .tooltip:hover .tooltiptext {
+   display:none
+}
+     #contactContainer {
+ 
+ display:none;
+ 
+ } 
+ 
+ .telephone {
+   
+    position:relative;
+    top:50px;
+    left:5%;
+
+  
+   }
+
+.emailLink {
+ 
+    position:relative;
+    top:50px;
+    left:20%;
+ 
+   }
+      .socialMedia {
+ 
+    position:relative;
+    top:50px;
+    left:35%;
+ 
+   }
+   
+} /* Small devices (tablets, 768px and below) */
+@media screen and (max-width: 768px)  { 
+ 
+    #contactContainer {
+ 
+ display:none;
+ 
+ }             .imgText {
+   
+   left:0%;
+   top:0%;
+   width:33%;
+   }
+ 
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:30%;
+  height:42px;
+  top:118px;
+  border:1px solid blue; 
+   
+   }
+      #search input[type=text] {
+    
+    left:30%;
+    top:118px;
+    color:#0288D1;
+    width:55%;
+    height:40px;
+    text-align:left;
+    background: #795548;
+} 
+    ul {
+        position: static;
+        display: none;
+     
+    }  
+       article {
+
+  top:1262px;
+ 
+ }       #map {
+  
+  top:640.5px;
+  height:715.5px;
+      
+   }
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:132.2px;
+    left:0%;
+    height:77.95px;
+    width:38.16%;
+    text-align:left;
+    display:block;
+    background: #795548;
+    
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#1976D2;
+         }
+                
+      .email {
+   
+  left:60.5%;
+  font-size:0.8em; 
+  }  
+  
+  .copyright {
+  
+  font-size:0.8em;
+  
+  }
+   
+    #advertPosition {
+  
+
+  background-image: url(images/AdvertisingTVResized5.jpg) ;
+  width: 768px;
+  height: 300px;
+   top:230px;
+
+  } 
+          #advertPosition1 {
+   
+   background-image: url(images/AdvertisingTV2Resized4.jpg); 
+   background-size:33.3%;
+   height:290px;
+   top:1530px;
+  } 
+       
+   .container {
+ 
+ position:absolute;
+ left:76.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:83.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:89.77%;
+  
+   } 
+         .logo{
+      
+    top:30px;
+     
+    }         .background {
+  
+   background-size:470px;
+   width:470px;
+   height:350px;
+   background-image: url(images/AerialResized3.jpg); 
+  
+   }
+   
+   .aboutUs {
+
+   width:235px;
+   height:250px;
+   }
+   
+   .openingHours {
+    
+   width:235px;
+   height:250px;
+   } 
+   
+       aside {
+   
+   left:1.5%;
+   top:940px;
+   height:330px;
+   width:470px;
+   font-size:0.7em;
+   border:none;
+   }
+   
+    .contact {
+  
+ left:72.5%; 
+ border: 1px solid #b5651d;
+ top:930.5px;
+ height:581px;
+ width:24.8023%;
+
+ }     #map {
+  
+  top:574.5px;
+  height:684px;
+  width:470px;    
+  left:1.5%; 
+   }
+          
+    .tooltip .tooltiptext {
+
+
+   top: -125px;
+   left: 109%;
+   width:175px;
+   height:225px;
+  } 
+      .tooltip:hover .tooltiptext {
+   display:none
+}    
+ .telephone {
+   
+    position:absolute;
+    left:60px;
+  
+   }
+
+.emailLink {
+ 
+    position:absolute;
+    top:300px;
+    left:60px;
+ 
+   }
+      .socialMedia {
+ 
+    position:absolute;
+    top:505px; 
+    left:60px;
+
+ 
+   }
+   
+   #imgPosition {
+       
+        top:574.5px;
+        
+        }
+}    
+

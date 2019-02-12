@@ -1,0 +1,884 @@
+/* CSS Document */
+  body {
+ 
+  height:100%;
+  width:100%;
+  padding: 0;
+  margin: 0px;
+  text-align:center;
+  background-color:#000000;
+  
+    }  
+
+ .headerDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:190px;
+  left: -.833%;  
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:-1;
+ 
+  } 
+   
+   .cHeaderDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:500px;
+  left: -.8333%; 
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:-1;
+ 
+  } 
+      
+   .footerDiv {
+
+  padding: 0em 0.5em 10px;
+  position:absolute;
+  top:1495px;
+  left: -.8333%; 
+  width: 100%;
+  background-color:#B3E5FC;
+  z-index:1;
+ 
+  } 
+    
+  #socialContainer {
+  
+  position:relative;
+  top:30px;
+
+  }
+  
+ .container {
+ 
+ position:absolute;
+ left:90.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:94.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:97.77%;
+  
+   }
+      
+    .footer {
+
+  padding: 0em 0.5em 10px;
+  position: absolute;
+  background-color:#B3E5FC;
+  top: 1815px;
+  left: -.8333%; 
+  width: 100%;
+  z-index:1;
+  } 
+   
+    
+   #advertPosition {
+  
+  position:absolute;
+  top:230px;
+  background-image: url(images/AdvertisingTV.jpg);
+  width:100%; 
+  z-index:0;
+    
+  } 
+      
+  #advertPosition1 {
+  
+  position:absolute;
+  top:1525px;
+  background-image: url(images/AdvertisingTV2.jpg);
+  width:100%;
+  z-index:0; 
+ 
+  }  
+  
+   .advert {
+ 
+  background-size: 1920px;
+  width:1900px;
+  height:300px;
+  
+}  
+
+  img {
+
+  border: 1px solid #212121;
+  
+   } 
+   
+    #infoContainer {
+
+  position:absolute;
+  left:21.875%;
+  top:717.5px;
+  width:56.25%; 
+  margin: 0 auto;
+  color:#0288D1;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius:20px;
+ -webkit-box-shadow:  0px 0 20px #b5651d;
+ -moz-box-shadow: 0 0 20px #b5651d;
+ box-shadow:  0 0 20px #b5651d; 
+
+  }
+        #map {
+  
+  position:absolute;
+  left:21.875%;
+  top:717.5px;
+  height:620px;
+  width:56.25%; 
+  margin: 0 auto;
+  z-index:2; 
+  border-radius:20px;
+     
+   }
+   a {
+      
+   color:#03A9F4;
+   text-decoration:none;
+
+   }
+
+  .copyright {
+  
+  position:absolute;
+  top:1865px;  
+  left:.00260%;
+  
+  }
+
+ 
+ .email {
+  
+  position:absolute;
+  top:1865px;  
+  left:1550px;
+  
+ }
+ 
+ p {
+ 
+ font-size: 1.3em;
+ 
+  }
+
+ h1 {
+ 
+ color:#0288D1;
+
+ }
+  h2 {
+
+   color:#0288D1;
+   text-decoration:underline;
+   text-decoration-color:#8BC34A;
+ 
+   }
+
+span {
+
+color:#8BC34A;
+
+}   
+
+  /* Responsive Design: https://medialoot.com/blog/how-to-create-a-responsive-navigation-menu-using-only-css */
+ 
+ /*Style 'show menu' label button and hide it by default*/
+
+.show-menu {
+
+    text-decoration: none;
+    color:#388E3C;
+    opacity:0.8;
+    background: #795548;
+    text-align: center;
+    display: none;
+    height:60px;
+    z-index:1;
+    position:absolute;
+    top:87px;
+} 
+
+ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0;
+    position: absolute;
+        
+}
+
+/*Create a horizontal list with no spacing*/
+
+li {
+    display:inline-block;
+    float: left;
+    width:150px;
+}  
+   
+/*Style for menu links*/
+li a {
+   
+   
+    position:relative;
+    top:50px;
+    left:660px;
+    color:#0288D1;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;  
+    z-index:3;
+    text-decoration:underline;
+    text-decoration-color:#8BC34A;   
+    opacity:0.8;
+    }
+    
+      /* Search bar is display only */
+      
+      #search input[type=text] {
+      
+    position:absolute;
+    left:335px;
+    top:120px;
+    color:#0288D1;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background:black;
+    width:1250px;
+    border:1px solid #0288D1;
+
+}  
+      .logo{
+      
+    position:absolute;
+    float:left;
+    margin-left:5px;
+     
+    }
+
+
+
+::placeholder {
+
+color:#0288D1;
+font-size:1.3em;
+
+}
+
+/*Hover state for top level links*/
+ a:hover {
+     
+    color: #795548;
+    opacity:0.9;
+    text-decoration:none; 
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+} 
+
+ /* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 1500px) and (max-width:1700px) {
+
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:-2.29%;
+    top:147px;
+    color:#0288D1;
+    width:105%;
+ 
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+
+   #map {
+ 
+  top:715px;
+
+  }    
+ 
+      
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+ 
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+        color:#0288D1;
+    } 
+     
+       .email {
+   
+  left:76.5%;
+  
+  }  
+     #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized.jpg); 
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized.jpg); 
+ 
+  }  .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }
+ 
+ #infoContainer {
+
+  top:712.5px;
+
+
+  }
+     
+  
+  }
+  /* Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 1300px) and (max-width:1499px) {
+
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:-2.29%;
+    top:147px;
+    color:#0288D1;
+    width:105%;
+ 
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+
+   #map {
+ 
+  top:715px;
+
+  }    
+  
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+ 
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+        color:#0288D1;
+    } 
+     
+      .email {
+   
+  left:71.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized2.jpg); 
+
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized2.jpg); 
+  
+  } .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }   
+     
+      #infoContainer {
+
+  top:725.5px;
+
+
+  }
+
+  
+  }
+  @media screen and (min-width: 992px) and (max-width:1299px) {
+
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:100%;
+
+   }
+      #search input[type=text] {
+    
+    left:-2.29%;
+    top:147px;
+    color:#0288D1;
+    width:105%;
+ 
+}  
+    ul {
+        position: static;
+        display: none;
+     
+    }   
+
+   #map {
+ 
+  top:715px;
+
+  }   
+  
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:200px;
+    left:23.75%;
+    height:77.95px;
+    display:block;
+    background: #795548;
+ 
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+    } 
+     
+      .email {
+   
+  left:63.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized3.jpg); 
+
+   
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized3.jpg); 
+  
+  } .container {
+ 
+ position:absolute;
+ left:86.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:91.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:95.77%;
+  
+   }
+             #infoContainer {
+
+  top:705.5px;
+
+
+  }
+
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:991px) { 
+
+
+    ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:35%;
+  height:42px;
+  border:1px solid blue;
+  top:110px;
+   
+   }
+      #search input[type=text] {
+    
+    left:35%;
+    top:110px;
+    color: #0288D1;
+    width:61.52%;
+    height:40px;
+    background: #795548;   
+} 
+    ul {
+        position: static;
+        display: none;
+     
+    }  
+
+    /*Creates no vertical spacing*/
+    li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+    position:relative;
+    top:123.4px;
+    left:0%;
+    height:77.95px;
+    width:44.42%;
+    display:block;
+    background: #795548;
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+    } 
+      .email {
+   
+  left:53.5%;
+  
+  }  
+   
+    #advertPosition {
+  
+   background-image: url(images/AdvertisingTVResized4.jpg); 
+   top:250px;
+  } 
+          #advertPosition1 {
+  
+   background-image: url(images/AdvertisingTV2Resized4.jpg); 
+   top:1545px;
+   background-size:50%;
+   height:270px;
+  } 
+        
+  #socialContainer {
+  
+  position:relative;
+  top:50px;
+
+  }
+   .container {
+ 
+ position:absolute;
+ left:82.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:88.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:93.77%;
+  
+   } 
+         .logo{
+      
+    top:25px;
+     
+    } 
+    
+  #map {
+  
+  top:719px;
+  height:682px;
+  width:530px;
+      
+   }           #infoContainer {
+
+  top:705.5px;
+
+
+  }
+
+} /* Small devices (tablets, 768px and below) */
+@media screen and (max-width: 768px)  { 
+
+
+ul li, li a {
+        width: 78.8%;
+    }
+
+ .show-menu {
+    
+  display:block;   
+  width:30%;
+  height:42px;
+  top:118px;
+  border:1px solid blue; 
+   
+   }
+      #search input[type=text] {
+    
+    left:30%;
+    top:118px;
+    color:#0288D1;
+    width:55%;
+    height:40px;
+    text-align:left;
+    background: #795548;
+} 
+    ul {
+        position: static;
+        display: none;
+     
+    }       #map {
+  
+  top:650.5px;
+  height:775.5px;
+   
+   }
+    /*Creates no vertical spacing*/
+    
+       li {
+        margin-bottom: -25px;  
+        top:10px;      
+        position:relative;
+ 
+    }
+         li a {
+
+   
+    top:132.6px;
+    left:0%;
+    height:77.95px;
+    width:38.16%;
+    text-align:left;
+    display:block;
+    background: #795548;
+    
+    }  
+    
+     li a:hover {
+    
+    opacity:0.8;
+    background: #795548;
+    color:#0288D1;
+         }
+                
+      .email {
+   
+  left:60.5%;
+  font-size:0.8em; 
+  }  
+  
+  .copyright {
+  
+  font-size:0.8em;
+  
+  }
+   
+    #advertPosition {
+  
+
+  background-image: url(images/AdvertisingTVResized5.jpg) ;
+  width: 768px;
+  height: 279px;
+   top:275px;
+
+  } 
+          #advertPosition1 {
+   
+   background-image: url(images/AdvertisingTV2Resized4.jpg); 
+   background-size:33.3%;
+   height:275px;
+   top:1545px;
+  } 
+  
+  #socialContainer {
+  
+  top:60px;
+  
+  }
+     .container {
+ 
+ position:absolute;
+ left:76.72%;  
+ 
+ } 
+  
+  .container1 {
+ 
+ position:absolute;
+ left:83.22%;
+ 
+   }
+
+ .container2 {
+ 
+ position:absolute;
+ left:89.77%;
+  
+   } 
+         .logo{
+      
+    top:30px;
+     
+    }   
+    
+    
+ .headerDiv {
+
+
+  top:207px;
+  
+ 
+  }   
+  .cHeaderDiv {
+
+  top:485px;
+
+  } 
+      
+   .footerDiv {
+
+  position:absolute;
+  top:1480px;
+ 
+ 
+  } 
+             #infoContainer {
+
+  top:690.5px;
+
+
+  }       
+}    
+ 
