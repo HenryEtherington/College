@@ -1,0 +1,90 @@
+/* CSS Document */
+ body {
+ 
+ margin:0px;
+ 
+ padding: 0px;
+ 
+ height: 100px;
+ 
+ }
+ #width {
+
+  margin-bottom: 0px;
+
+  border: none;
+
+  border-radius: none;
+
+  padding:  12px 1em 0.5em 10px ;
+
+  background: #b3e5fc;
+
+  height: 140px;
+
+  width:1920px;
+
+  margin:0px;
+
+  }
+   #inline {
+   
+     padding:  6px 1em 0.5em  ;
+   
+      border: none;
+      
+  }
+  
+  
+      #footwidth {
+  
+  margin-bottom: 10px;
+
+  border: none;
+
+  border-radius: none;
+
+  padding: 12px 1em 0.5em 10px;
+
+  background: #b3e5fc;
+
+  height: 80px;
+
+  width: 1892px;
+  
+   }
+           #menu
+{
+  
+  margin:0;
+  
+  color:#212121;
+  
+  font-family: arial, helvetica, sans-serif;
+  
+}
+
+#menu li {display:inline;}
+
+#menu li a {
+
+  padding: 12px 1em 0.5em 10px;
+
+ background:#fbc02d;
+
+ color:#000;
+
+ text-decoration:none;
+
+ float:left;
+ 
+ border:1px solid #212121;
+ 
+ height: 45px;
+
+}
+#menu li a:hover {
+
+background: #b3e5fc;
+
+}
