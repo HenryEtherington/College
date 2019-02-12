@@ -1,1 +1,0 @@
-"Gravitation cannot be held responsible for people falling in love. How on  you explain in terms of chemistry and physics so important a biological phenomenon as first love ? Put your hand onfor a minute and it seems like an hour. Sit with that special girl for an hour and it seems like a minute. That's relaivity." 
