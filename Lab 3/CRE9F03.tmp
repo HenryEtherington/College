@@ -1,0 +1,29 @@
+//Exercise3.java//
+/*This program coverts area in acres to 
+ *area in hectares*/
+ 
+ import java.Scanner;
+ 
+ public class Exercise3 {
+ 	
+ 	public static void main(String args[]);
+ 	{
+ 	
+ 	float acres;
+ 	final float CONVERSION_FACTOR = 0.4046f ;
+ 	
+ 	
+    Scanner input = new Scanner(System.ln);
+    
+    System.out.print ("Please enter the area in acres: ");
+    
+    acres = input.nextFloat ();
+    
+    System.out.println("\n\nThe area in hectares " +
+    String.format ("%.2f,CONVERSION_FACTOR*acres) + "hectares");
+    	
+    	
+    
+    
+     	}
+ }
