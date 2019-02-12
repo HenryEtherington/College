@@ -1,0 +1,31 @@
+ /* CSS Document */
+ body {
+
+ background: 333;
+ color: ccc;
+ font: ariel,helvetica,sans-serif;
+ line-height: 22px,26px,16px;
+ padding: 15px;
+ width: 500px;
+ }
+
+ section1 {
+ padding-left:50px;
+
+ }
+
+ section2 {
+
+ border: 15%;
+ border-color: ccc;
+ padding-left: 65px;
+
+ }
+
+ webdesign {
+ text-align: center;
+
+
+
+ }
+
