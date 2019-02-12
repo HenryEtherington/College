@@ -1,0 +1,48 @@
+/* CSS Document */
+
+body {
+ margin: 0px;
+ 
+ padding: 0px;
+
+    }
+    
+ #width {
+
+  margin-bottom: 10px;
+
+  border: none;
+
+  border-radius: none;
+
+  padding: 1em 0.5em 10px;
+
+  background: #b3e5fc;
+
+  margin: 0px;
+
+  }
+   
+   #inline     
+         {
+      
+  float: 12px;  
+  padding: 12px 1em 0.5em 10px;   
+     
+          }
+ 
+  td, th {
+   
+  border: 1px solid #ff9800
+   
+   }
+   
+  #logo
+  
+  {
+  
+  text
+  
+  }
+   
+      
