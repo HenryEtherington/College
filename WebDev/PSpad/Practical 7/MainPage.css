@@ -1,0 +1,26 @@
+/* CSS Document */
+    .Division,Main {
+  width 1000px;
+  border-style: solid;
+  line-height: 150%;
+  border-color:  #ccc;
+     }
+    
+  .Division2{
+  color: #cccccc;
+  background-color: #ccc;   
+    }
+    
+  .FloatDiv {
+  width: 250px;
+  border-right-style: solid;
+  border-right-color: #ccc ;
+  border-right-width  5px;
+    }
+   
+  .FloatDiv2{
+  width:   40px;
+  padding: 15px;
+  margin: left;
+  clear: right;
+    }  

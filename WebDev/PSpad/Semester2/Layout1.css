@@ -1,0 +1,52 @@
+/* CSS Document */
+#b1 {
+
+border-top: solid 5px;
+border-right: solid 15px;
+border-left: solid 5px;
+border-bottom: solid 5px;
+margin-top:10px;
+margin-right:50px;
+margin-left:10px;
+margin-bottom:30px;
+padding:10px;
+
+}
+
+#text {
+
+position:absolute;
+top:-25px;
+left:5px;
+
+} 
+
+#box1 {
+
+position:relative;
+left:-35px;
+height:20px;
+border-top: solid 5px;
+border-right: solid 15px;
+border-left: solid 5px;
+border-bottom: solid 5px;
+
+}
+#textWhat {
+
+position:absolute;
+top:95px;
+left:550px;
+
+}
+#box2 {
+
+float:right;
+width:200px;
+height:20px;
+border-top: solid 5px;
+border-right: solid 15px;
+border-left: solid 5px;
+border-bottom: solid 5px;
+
+}

@@ -1,0 +1,32 @@
+/* CSS Document */
+    	body {
+		  border-width:3px;
+	    border-style:solid;
+	    border-color:#4286f4;		
+      background-color: #333366;
+      margin: 5%;
+      color:#ffffff;
+      font-size:13pt;
+		  padding:20px;
+       }
+
+	   h1{
+        background-color: #CC99CC;
+ 			  font-family: Impact, serif;
+        font-weight: bolder;
+        font-size: 26px;
+        margin:4%; 
+        padding:10px;			 
+        }
+
+	    p{
+         text-indent: 25px ;
+         text-indent: 25px; 
+         font-size:13px;
+       }
+       
+       <h1> Spottedpotted wren garden center<h1>
+       
+       <h2> Foror your year-round garden and yard needa <h2>
+       
+       <p> Looking for something unusual or hard to find ? <p>

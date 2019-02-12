@@ -1,0 +1,36 @@
+/* CSS Document */
+#h1 {
+
+color:#ff0000; 
+padding:5px;
+margin-left:50px;
+
+}
+
+#p1 {
+
+padding:5px;
+margin-left:50px;
+
+}
+
+
+
+
+
+#text {
+
+color:#0000ff;  
+position:absolute;
+top: 150px;
+left: 345px;
+background:#ffffff;
+
+
+}
+
+span {
+
+color:#ffA500;  
+
+}

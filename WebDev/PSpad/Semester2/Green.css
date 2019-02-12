@@ -1,0 +1,51 @@
+/* CSS Document */
+#b1 {
+
+  
+border-top: solid 30px;
+border-right: solid 150px;
+border-left: solid 150px;
+border-bottom: solid 100px;
+margin:300px;
+padding:10px;
+height:520px;
+width:1140px;
+
+}
+
+#b2 {
+
+margin:20px;
+padding:10px;
+position:relative;
+
+}
+
+#text {
+
+position: relative;
+top:150px;
+left:50px;
+text-align:center;
+
+}
+
+#image {
+
+position: absolute;
+top:-10px;
+left:-10px;
+}
+
+#floattextl {
+
+width:500px;
+
+} 
+
+#floattextr {
+
+width:500px;
+float:right;
+
+} 

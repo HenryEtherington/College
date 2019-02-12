@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.body {
+ 
+font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+  }
+  
+  .title {
+  
+ 	color:#09c; 
+  border:5px solid #000000;
+  padding-top:20px;
+  
+  
+  }
+  
+.rightMenu {
+
+ 	color:#ccc;
+  
+}
+
+	.rightList {
+	
+  color:#09c;}
